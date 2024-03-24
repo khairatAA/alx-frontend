@@ -1,7 +1,7 @@
 @import url('"https://registry.npmjs.org/normalize.css/-/normalize.css-8.0.1.tgz');
 
 * {
-    box-sizing:content-box;
+    box-sizing: border-box;
 }
 
 html{
