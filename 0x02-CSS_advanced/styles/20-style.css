@@ -161,7 +161,7 @@ ul .row{
     list-style-type: none;
 }
 
-ul .row::after{
+.row::after{
     content: none;
     display: table;
     clear: both;
