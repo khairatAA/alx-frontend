@@ -1,8 +1,8 @@
 @import url('"https://registry.npmjs.org/normalize.css/-/normalize.css-8.0.1.tgz');
 
-* {
+*, *:before, *:after {
     box-sizing: border-box;
-}
+  }
 
 html{
     scroll-behavior: smooth;
