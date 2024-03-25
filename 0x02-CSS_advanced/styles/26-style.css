@@ -231,15 +231,15 @@ ul .row{
     text-align: center;
 }
 
-.card-avatar{
+.card-testimonial .card-avatar{
     border-radius: 50%;
-    width: calc(10 * 1rem);
-    height: calc(10 * 1rem);
+    width: 10rem;
+    height: 10rem;
 }
 
-cite{
+.card-testimonial .card-quote cite{
     display: block;
-    padding: calc(1 * 1rem);
+    padding-top: 1rem;
     color: var(--color-primary);
 }
 
