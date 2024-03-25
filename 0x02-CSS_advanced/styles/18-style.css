@@ -41,9 +41,9 @@ html{
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight:var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
+    --nav-item-letter-spacing: calc(4% * 1rem );
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(3 * var(--root-font-size)) 0;;
+    --nav-item-margin: 0 0 calc(3 * 1rem) 0;;
     --nav-item-link-hover: var(--color-primary);
 }
 
@@ -146,7 +146,7 @@ a:active{
 
 .nav .nav-link{
     display: block;
-    padding: calc(0.5 * var(--root-padding-top-bottom)) var(--root-padding-left-right);
+    padding: calc(0.5 * 1rem) 1rem;
 }
 
 .nav .nav-link:hover{
